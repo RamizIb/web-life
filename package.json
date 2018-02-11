@@ -1,0 +1,30 @@
+{
+  "name": "Web-Life",
+  "version": "1.0.0",
+  "private": true,
+  "description": "web-life.me",
+  "author": "Ramiz Ibragimov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamizIb/web-life.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RamizIb/web-life/issues"
+  },
+  "homepage": "https://github.com/RamizIb/web-life#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "less": "^2.7.1",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp build"
+  }
+}
