@@ -1,5 +1,9 @@
 .card {
+  position: relative;
 
+  margin-bottom: 15px;
+
+  background-color: #fff;
 }
 
 .card img {
@@ -14,17 +18,53 @@
 }
 
 .card__category {
+  position: absolute;
 
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+
+  top: 15px;
+  left: 15px;
+
+  border-radius: 4px;
+
+  background-color: #fff;
 }
 
 .card__title {
 
 }
 
-.card__text-accent {
+.card__date {
+  font-size: 14px;
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.card__text {
 
 }
 
 .card__link {
 
+}
+
+.card--w {
+  width: 100%;
+}
+
+.card--main-horizontal {
+  display: flex;
+
+  img {
+    width: 35%;
+  }
+
+  .card__body {
+    width: 65%;
+  }
 }
